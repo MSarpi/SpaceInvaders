@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'mifuente';
+    src: url(Fuente/ssf4_abuket/SSF4\ ABUKET.ttf);
+}
+
+.bg{
+    text-align: center;
+    font-family: 'mifuente';
+    background-image: url(img/bg.jpg);
+}
+
+
+.grid {
+    /*background-image: url(img/universe.jpg);*/
+    /*background-size: contain;*/
+    width: 600px;
+    height: 600px;
+    border: solid rgba(122, 122, 122, 0) 1px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.cargar {
+    background-color: green;
+    border-bottom: green;
+    border-radius: 2px;
+}
+
+.grid div {
+    width: 40px;
+    height: 40px;
+}
+
+.invasion {
+    background-image: url(img/invasores.png);
+    background-size: contain;
+    border-radius: 0px;
+}
+
+.defensor {
+    background-image: url(img/navedefensora.png);
+    background-size: contain;
+}
+
+.laser {
+    background-image: url(img/Bala.png);
+    background-size: contain;
+    
+}
+
+.boom {
+    background-image: url(img/explo.png);
+    background-size: contain;
+}
